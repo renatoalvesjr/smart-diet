@@ -2,7 +2,6 @@ import React from "react";
 import Header from "../../Components/Header";
 import { MDBCol, MDBContainer, MDBRow, MDBCard, MDBIcon, MDBCardText, MDBCardBody, MDBCardImage, MDBBtn, MDBTypography } from 'mdb-react-ui-kit';
 import Footer from "../../Components/Footer";
-import Batepapo from "../../Components/Chat";
 
 
 export default function Profile() {
