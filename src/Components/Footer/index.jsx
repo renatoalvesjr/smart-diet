@@ -12,7 +12,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 
 export default function Footer() {
     return (
-        <MDBFooter bgColor='light' className='text-center text-lg-start text-muted fixed-bottom'>
+        <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
             <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
                 <div className='me-5 d-none d-lg-block'>
                     <span>Entre em contato através das nossas redes sociais:</span>
@@ -113,7 +113,7 @@ export default function Footer() {
             <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
                 © 2024 Copyright:
                 <a className='text-reset fw-bold' href='https://iftm.edu.br/'>
-                https://iftm.edu.br
+                    https://iftm.edu.br
                 </a>
             </div>
         </MDBFooter>
