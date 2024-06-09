@@ -4,6 +4,8 @@ import Card from 'react-bootstrap/Card';
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import Footer from "../../Components/Footer";
+import Batepapo from "../../Components/Chat";
+
 
 export default function Profile() {
     return (
@@ -28,7 +30,6 @@ export default function Profile() {
 
             </Tabs>
          <Footer/>
-
         </>
     );
 }
