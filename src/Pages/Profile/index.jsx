@@ -3,6 +3,7 @@ import Header from "../../Components/Header";
 import Card from 'react-bootstrap/Card';
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
+import Footer from "../../Components/Footer";
 
 export default function Profile() {
     return (
@@ -20,13 +21,14 @@ export default function Profile() {
             </Card>
             <Tabs>
                 <Tab eventKey="home" title="Informações">
-
                 </Tab>
                 <Tab eventKey="profile" title="Objetivos">
 
                 </Tab>
 
             </Tabs>
+         <Footer/>
+
         </>
     );
 }
