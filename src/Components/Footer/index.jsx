@@ -9,6 +9,7 @@ import {
 
 } from 'mdb-react-ui-kit';
 import Chat from '../Chat';
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 
 

@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../Components/Header";
 import { MDBCol, MDBContainer, MDBRow, MDBCard, MDBIcon, MDBCardText, MDBCardBody, MDBCardImage, MDBBtn, MDBTypography } from 'mdb-react-ui-kit';
 import Footer from "../../Components/Footer";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 
 export default function Profile() {
@@ -28,7 +29,7 @@ export default function Profile() {
                             <div className="p-4 text-black" style={{ backgroundColor: '#f8f9fa' }}>
                                 <div className="d-flex justify-content-end text-center py-1">
                                     <div>
-                                        <MDBCardText className="mb-1 h5">253 <MDBIcon icon='trophy' /></MDBCardText>
+                                        <MDBCardText className="mb-1 h5">253 <MDBIcon fas icon='trophy' /></MDBCardText>
                                         <MDBCardText className="small text-muted mb-0">Rank</MDBCardText>
                                     </div>
                                 </div>
