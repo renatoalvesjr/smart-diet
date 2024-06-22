@@ -1,0 +1,17 @@
+.text-editor:disabled{
+    border:0;
+    outline:none;
+    resize:none;
+    background-color:transparent;
+}
+
+.btn-edit, .btn-edit:hover{
+    color:pink;
+    border:0;
+    outline:none;
+    background-color:transparent;
+    cursor:pointer;
+}
+.btn-edit:active:hover{
+    background-color: bisque;
+}

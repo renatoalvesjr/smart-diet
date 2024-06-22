@@ -11,7 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 export default function FollowCard() {
-    const [name, setName] = useState('Renato Alves Junior');
+    const [name, setName] = useState('Renato');
     const [follow, setFollow] = useState('Seguir');
 
     const changeName = (e) => {

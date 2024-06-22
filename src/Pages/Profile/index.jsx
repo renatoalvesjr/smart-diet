@@ -14,6 +14,7 @@ import Footer from '../../Components/Footer';
 import Header from '../../Components/Header';
 import FollowCard from '../../Components/Profile Components/FollowCard';
 import SocialCard from '../../Components/Profile Components/SocialCard';
+import DescriptionCard from '../../Components/Profile Components/DescriptionCard';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function ProfilePage() {
@@ -29,54 +30,7 @@ export default function ProfilePage() {
                         <SocialCard />
                     </MDBCol>
                     <MDBCol lg="8">
-                        <MDBCard className="mb-4">
-                            <MDBCardBody>
-                                <MDBRow>
-                                    <MDBCol sm="3">
-                                        <MDBCardText>Nome Completo</MDBCardText>
-                                    </MDBCol>
-                                    <MDBCol sm="9">
-                                        <MDBCardText className="text-muted">Renato Alves Junior</MDBCardText>
-                                    </MDBCol>
-                                </MDBRow>
-                                <hr />
-                                <MDBRow>
-                                    <MDBCol sm="3">
-                                        <MDBCardText>Email</MDBCardText>
-                                    </MDBCol>
-                                    <MDBCol sm="9">
-                                        <MDBCardText className="text-muted">renato.alvesjr00@gmail.com</MDBCardText>
-                                    </MDBCol>
-                                </MDBRow>
-                                <hr />
-                                <MDBRow>
-                                    <MDBCol sm="3">
-                                        <MDBCardText>Telefone</MDBCardText>
-                                    </MDBCol>
-                                    <MDBCol sm="9">
-                                        <MDBCardText className="text-muted">(34) 99994-9555</MDBCardText>
-                                    </MDBCol>
-                                </MDBRow>
-                                <hr />
-                                <MDBRow>
-                                    <MDBCol sm="3">
-                                        <MDBCardText>Cidade</MDBCardText>
-                                    </MDBCol>
-                                    <MDBCol sm="9">
-                                        <MDBCardText className="text-muted">Uberaba, Minas Gerais, Brasil</MDBCardText>
-                                    </MDBCol>
-                                </MDBRow>
-                                <hr />
-                                <MDBRow>
-                                    <MDBCol sm="3">
-                                        <MDBCardText>Objetivo</MDBCardText>
-                                    </MDBCol>
-                                    <MDBCol sm="9">
-                                        <MDBCardText className="text-muted">Ganho de Massa</MDBCardText>
-                                    </MDBCol>
-                                </MDBRow>
-                            </MDBCardBody>
-                        </MDBCard>
+                        <DescriptionCard />
 
                         <MDBRow>
                             <MDBCol md="6">
