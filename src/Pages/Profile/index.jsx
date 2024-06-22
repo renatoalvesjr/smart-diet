@@ -14,6 +14,7 @@ import {
     MDBListGroup,
     MDBListGroupItem
 } from 'mdb-react-ui-kit';
+import { Button } from 'react-bootstrap';
 import Footer from '../../Components/Footer';
 import Header from '../../Components/Header';
 
@@ -37,7 +38,7 @@ export default function ProfilePage() {
                                     fluid />
                                 <p className="text-muted my-3"><u>Renato</u></p>
                                 <div className="d-flex justify-content-center mb-2">
-                                    <MDBBtn>Seguir</MDBBtn>
+                                    <Button>Seguir</Button>
 
                                 </div>
                             </MDBCardBody>
