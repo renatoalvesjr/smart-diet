@@ -31,7 +31,7 @@ function MainPage() {
             <h2>Bem-vindo ao nosso site!</h2>
             <p>Convidamos você a explorar tudo o que temos para oferecer.</p>
             <div className="text-center">
-              <Button variant="dark" onClick={handleGetStartedClick}>
+              <Button variant="light" onClick={handleGetStartedClick}>
                 Comece Por Aqui!
               </Button>
             </div>
