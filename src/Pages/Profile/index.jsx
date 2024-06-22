@@ -7,13 +7,13 @@ import {
     MDBCardText,
     MDBCardBody,
     MDBCardImage,
-    MDBBtn,
     MDBProgress,
     MDBProgressBar,
     MDBIcon,
     MDBListGroup,
     MDBListGroupItem
 } from 'mdb-react-ui-kit';
+import { Button } from 'react-bootstrap';
 import Footer from '../../Components/Footer';
 import Header from '../../Components/Header';
 
@@ -37,7 +37,7 @@ export default function ProfilePage() {
                                     fluid />
                                 <p className="text-muted my-3"><u>Renato</u></p>
                                 <div className="d-flex justify-content-center mb-2">
-                                    <MDBBtn>Seguir</MDBBtn>
+                                    <Button>Seguir</Button>
 
                                 </div>
                             </MDBCardBody>
@@ -153,7 +153,7 @@ export default function ProfilePage() {
 
                                         <MDBCardText className="mb-1" style={{ fontSize: '.77rem' }}>Caminhada</MDBCardText>
                                         <MDBProgress className="rounded">
-                                            <MDBProgressBar width={80} valuemin={0} valuemax={100}> 4.5h/5h</MDBProgressBar >
+                                            <MDBProgressBar width={80} valuemin={0} valuemax={100}> 4.5km/5km</MDBProgressBar >
                                         </MDBProgress>
 
                                         <MDBCardText className="mt-4 mb-1" style={{ fontSize: '.77rem' }}>Musculação</MDBCardText>
