@@ -6,16 +6,13 @@ import {
     MDBCard,
     MDBCardText,
     MDBCardBody,
-    MDBCardImage,
     MDBProgress,
     MDBProgressBar,
-    MDBIcon,
-    MDBListGroup,
-    MDBListGroupItem
+
 } from 'mdb-react-ui-kit';
-import { Button } from 'react-bootstrap';
 import Footer from '../../Components/Footer';
 import Header from '../../Components/Header';
+import FollowCard from '../../Components/Profile Components/FollowCard';
 import SocialCard from '../../Components/Profile Components/SocialCard';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -27,25 +24,9 @@ export default function ProfilePage() {
 
                 <MDBRow>
                     <MDBCol lg="4">
+                        <FollowCard />
+
                         <SocialCard />
-                        <MDBCard className="mb-4 mb-lg-0">
-                            <MDBCardBody className="p-0">
-                                <MDBListGroup flush className="rounded-3">
-                                    <MDBListGroupItem className="d-flex justify-content-between align-items-center p-3">
-                                        <MDBIcon fab icon="twitter fa-lg" style={{ color: '#55acee' }} />
-                                        <MDBCardText>@renato_O_alves</MDBCardText>
-                                    </MDBListGroupItem>
-                                    <MDBListGroupItem className="d-flex justify-content-between align-items-center p-3">
-                                        <MDBIcon fab icon="instagram fa-lg" style={{ color: '#ac2bac' }} />
-                                        <MDBCardText>@renatooaalves</MDBCardText>
-                                    </MDBListGroupItem>
-                                    <MDBListGroupItem className="d-flex justify-content-between align-items-center p-3">
-                                        <MDBIcon fab icon="facebook fa-lg" style={{ color: '#3b5998' }} />
-                                        <MDBCardText>Renato Alves Junior</MDBCardText>
-                                    </MDBListGroupItem>
-                                </MDBListGroup>
-                            </MDBCardBody>
-                        </MDBCard>
                     </MDBCol>
                     <MDBCol lg="8">
                         <MDBCard className="mb-4">
