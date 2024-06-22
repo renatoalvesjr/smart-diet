@@ -153,7 +153,7 @@ export default function ProfilePage() {
 
                                         <MDBCardText className="mb-1" style={{ fontSize: '.77rem' }}>Caminhada</MDBCardText>
                                         <MDBProgress className="rounded">
-                                            <MDBProgressBar width={80} valuemin={0} valuemax={100}> 4.5h/5h</MDBProgressBar >
+                                            <MDBProgressBar width={80} valuemin={0} valuemax={100}> 4.5km/5km</MDBProgressBar >
                                         </MDBProgress>
 
                                         <MDBCardText className="mt-4 mb-1" style={{ fontSize: '.77rem' }}>Musculação</MDBCardText>
