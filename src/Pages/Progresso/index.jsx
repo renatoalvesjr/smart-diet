@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export default function Progresso() {
     return (
         <>
-            <Header />
+            
             <MDBContainer className="p-5">
                 <MDBRow fluid>
                     <MDBCol>

@@ -5,11 +5,12 @@ import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Profile from "./Pages/Profile";
 import Progresso from "./Pages/Progresso";
+import MainPage from "./Pages/Mainpage"
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Profile />,
+    element: <MainPage />,
   },
   {
     path: "/profile",
