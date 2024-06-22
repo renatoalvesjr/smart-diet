@@ -16,7 +16,7 @@ import {
 import { Button } from 'react-bootstrap';
 import Footer from '../../Components/Footer';
 import Header from '../../Components/Header';
-
+import SocialCard from '../../Components/Profile Components/SocialCard';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function ProfilePage() {
@@ -27,22 +27,7 @@ export default function ProfilePage() {
 
                 <MDBRow>
                     <MDBCol lg="4">
-                        <MDBCard className="mb-4">
-                            <MDBCardBody className="text-center">
-                                <MDBCardImage
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp"
-                                    alt="avatar"
-                                    className="rounded-circle"
-                                    style={{ width: '150px' }}
-                                    fluid />
-                                <p className="text-muted my-3"><u>Renato</u></p>
-                                <div className="d-flex justify-content-center mb-2">
-                                    <Button>Seguir</Button>
-
-                                </div>
-                            </MDBCardBody>
-                        </MDBCard>
-
+                        <SocialCard />
                         <MDBCard className="mb-4 mb-lg-0">
                             <MDBCardBody className="p-0">
                                 <MDBListGroup flush className="rounded-3">
