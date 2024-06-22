@@ -1,9 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
+import "./index.scss";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Profile from "./Pages/Profile";
+import Progresso from "./Pages/Progresso";
+import Progresso from "./Pages/Progresso";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +16,10 @@ const router = createBrowserRouter([
     path: "/profile",
     element: <Profile />,
   },
+  {
+    path: "/progresso",
+    element: <Progresso />,
+  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
