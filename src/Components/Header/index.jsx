@@ -16,7 +16,7 @@ export default function Header() {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="/">Feed</Nav.Link>
-                        <Nav.Link href="/progress">Progresso</Nav.Link>
+                        <Nav.Link href="/progresso">Progresso</Nav.Link>
                         <Nav.Link href="/">Objetivos</Nav.Link>
                         <Nav.Link href="/">Ranking</Nav.Link>
                     </Nav>
