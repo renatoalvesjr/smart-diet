@@ -5,7 +5,6 @@ import {
     MDBCol,
     MDBTable,
     MDBTableBody,
-    MDBBtn,
     MDBInput,
 } from 'mdb-react-ui-kit';
 import { Button } from 'react-bootstrap';
