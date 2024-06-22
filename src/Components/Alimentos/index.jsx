@@ -29,7 +29,7 @@ export default function Alimentos() {
             <MDBContainer>
                 <MDBRow fluid>
                     <MDBCol>
-                        <MDBTable hover rounded className="text-center" bordered borderColor="dark">
+                        <MDBTable hover responsive className="text-center" bordered borderColor="dark">
                             <thead>
                                 <tr>
                                     <th scope="col">Alimento</th>
