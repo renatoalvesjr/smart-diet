@@ -6,6 +6,7 @@ import {
     MDBCol,
     MDBIcon,
     MDBModal,
+    MDBPopover,
 
 } from 'mdb-react-ui-kit';
 import Chat from '../Chat';
