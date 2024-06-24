@@ -1,0 +1,20 @@
+#second-page-container {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black; /* Alterei para preto para garantir contraste com a imagem */
+  }
+  
+  .img-second {
+    background-image: url('../../images/ImgSecond.jpg');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    height: 100vh;
+    width: 98.5vw;
+    filter: blur(2px);
+    transform: scale(1.01);
+  }
+

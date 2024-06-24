@@ -8,7 +8,7 @@ import './HeaderFirstPage.css'
 
 export default function Header() {
     return (
-        <Navbar collapseOnSelect expand="md" className="bg-body-tertiary" data-bs-theme="dark">
+        <Navbar collapseOnSelect expand="md" className="bg-body-tertiary headerFirstPage position-sticky ps-0" data-bs-theme="dark">
             <Container>
                 <Navbar.Brand href="/" style={{ color: 'red', fontFamily: 'Pacifico' }}>SmartDiet</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
