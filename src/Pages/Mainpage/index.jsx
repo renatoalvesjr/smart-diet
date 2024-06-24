@@ -1,23 +1,21 @@
 import React, { useState } from 'react';
 import { Button, Container } from 'react-bootstrap';
-import Header from '../../Components/HeaderMainPage';
-import Footer from '../../Components/Footer';
+import { useNavigate } from "react-router-dom";
 import './MainPage.css';
 
 function MainPage() {
-  const [showMainPage, setShowMainPage] = useState(false);
-  const [fadeOut, setFadeOut] = useState(false);
 
+  const [fadeOut, setFadeOut] = useState(false);
+  const navigate = useNavigate();
   const handleGetStartedClick = () => {
     setFadeOut(true);
     setTimeout(() => {
-      setShowMainPage(true);
+      navigate('/home')
     }, 500);
   };
 
   return (
     <>
-      {!showMainPage && (
         <Container
           fluid
           id="first-page-container"
@@ -37,21 +35,6 @@ function MainPage() {
             </div>
           </div>
         </Container>
-      )}
-
-      {showMainPage && (
-        <>
-            
-            <Header />
-            <div className="img-second"></div>
-            <Container fluid id="second-page-container">
-                <div className="secondContent">
-                    
-                </div>
-            </Container>
-            <Footer />
-        </>
-      )}
     </>
   );
 }

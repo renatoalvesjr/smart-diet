@@ -6,11 +6,16 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Profile from "./Pages/Profile";
 import Progresso from "./Pages/Progresso";
 import MainPage from "./Pages/Mainpage"
+import FirstPage from "./Pages/Firstpage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainPage />,
+  },
+  {
+    path: "/home",
+    element: <FirstPage />,
   },
   {
     path: "/profile",
