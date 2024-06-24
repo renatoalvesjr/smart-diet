@@ -3,7 +3,8 @@ import Header from "../../Components/HeaderFirstPage";
 import Footer from "../../Components/Footer";
 import { Container, Card, Button, Form, Row, Col } from 'react-bootstrap';
 import './FirstPage.css';
-import AppStoreButton from "../../Components/MobileStoreButton/AppStoreButton";
+import PlayStore from "../../Components/ButtonComponents/PlayStoreButton";
+import Apple from "../../Components/ButtonComponents/AppStoreButton";
 
 export default function FirstPage() {
     const [email, setEmail] = useState('');
@@ -64,8 +65,14 @@ export default function FirstPage() {
                                         <Card.Text>
                                             Baixe o nosso aplicativo para dispositivos móveis.
                                         </Card.Text>
-                                        <AppStoreButton/>
-                                       
+                                       <Row>
+                                            <Col>
+                                                <PlayStore/>
+                                            </Col>
+                                            <Col>
+                                                <Apple/>
+                                            </Col>
+                                       </Row>
                                     </Card.Body>
                                 </Card>
                             </Card.Body>
