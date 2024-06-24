@@ -15,14 +15,13 @@ export default function Header() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="/">Feed</Nav.Link>
-                        <Nav.Link href="/">Progresso</Nav.Link>
-                        <Nav.Link href="/">Objetivos</Nav.Link>
-                        <Nav.Link href="/">Ranking</Nav.Link>
+                        <Nav.Link href="/feed">Feed</Nav.Link>
+                        <Nav.Link href="/progresso">Progresso</Nav.Link>
+                        <Nav.Link href="/ranking">Ranking</Nav.Link>
                     </Nav>
                     <Nav>
-                        <Nav.Link href="/">Meu Perfil</Nav.Link>
-                        <Nav.Link href="/">
+                        <Nav.Link href="/profile">Meu Perfil</Nav.Link>
+                        <Nav.Link href="/profile">
                             <Figure.Image
                                 width={25}
                                 height={25}
