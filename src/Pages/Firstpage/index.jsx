@@ -5,8 +5,16 @@ import { Container, Card, Button, Form, Row, Col } from 'react-bootstrap';
 import './FirstPage.css';
 import PlayStore from "../../Components/ButtonComponents/PlayStoreButton";
 import Apple from "../../Components/ButtonComponents/AppStoreButton";
+import { useNavigate } from "react-router-dom";
 
 export default function FirstPage() {
+    const navigate = useNavigate();
+
+    const handleGetStartedClick = () => {
+        setTimeout(() => {
+          navigate('/registro')
+        }, 500);
+      };
     return (
         <>
             <Header />
@@ -29,7 +37,7 @@ export default function FirstPage() {
                                 <Card.Body className="d-flex flex-column justify-content-center align-items-center">
                                     <Card.Title>Comece Agora!</Card.Title>
                                     <Card.Text className="text-center">
-                                        <Button variant="" className="mt-3 register">Registrar-se</Button>
+                                        <Button onClick={handleGetStartedClick} variant="" className="mt-3 register">Registrar-se</Button>
                                     </Card.Text>
                                 </Card.Body>
                             </Card>

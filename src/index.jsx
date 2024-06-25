@@ -25,6 +25,10 @@ const router = createBrowserRouter([
     path: "/progresso",
     element: <Progresso />,
   }
+  {
+    path: "/registro",
+    element: <Registro/>
+  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
