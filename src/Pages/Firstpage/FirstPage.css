@@ -4,10 +4,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: black; /* Alterei para preto para garantir contraste com a imagem */
+  color: black; 
 }
 
 .img-second {
+  background-color: white;
   background-image: url('../../images/ImgSecond.jpg');
   background-position: center;
   background-size: cover;
