@@ -8,6 +8,7 @@ import Profile from "./Pages/Profile";
 import Progresso from "./Pages/Progresso";
 import Ranking from './Pages/Ranking';
 import Feed from './Pages/Feed';
+import MainPage from "./Pages/Mainpage";
 
 const router = createBrowserRouter([
   {

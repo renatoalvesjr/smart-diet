@@ -22,8 +22,6 @@ export default function Header() {
                     <Nav>
                         <Nav.Link href="/profile">Meu Perfil</Nav.Link>
                         <Nav.Link href="/profile">
-                        <Nav.Link href="/profile">Meu Perfil</Nav.Link>
-                        <Nav.Link href="/profile">
                             <Figure.Image
                                 width={25}
                                 height={25}

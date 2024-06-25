@@ -1,13 +1,11 @@
 import React from "react";
 import {
-    MDBCol,
-    MDBContainer,
-    MDBRow,
-    MDBCard,
-    MDBCardText,
-    MDBCardBody,
-    MDBProgress,
-    MDBProgressBar,
+  MDBCol,
+  MDBContainer,
+  MDBRow,
+  MDBCard,
+  MDBCardText,
+  MDBCardBody,
 
 } from 'mdb-react-ui-kit';
 import Footer from '../../Components/Footer';
@@ -15,22 +13,23 @@ import Header from '../../Components/Header';
 import FollowCard from '../../Components/Profile Components/FollowCard';
 import SocialCard from '../../Components/Profile Components/SocialCard';
 import DescriptionCard from '../../Components/Profile Components/DescriptionCard';
+import ProgressBar from "../../Components/ProgresBar";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function ProfilePage() {
-    return (
-        <section style={{ backgroundColor: '#eee' }}>
-            <Header />
-            <MDBContainer className="py-5">
+  return (
+    <section style={{ backgroundColor: '#eee' }}>
+      <Header />
+      <MDBContainer className="py-5">
 
-                <MDBRow>
-                    <MDBCol lg="4">
-                        <FollowCard />
+        <MDBRow>
+          <MDBCol lg="4">
+            <FollowCard />
 
-                        <SocialCard />
-                    </MDBCol>
-                    <MDBCol lg="8">
-                        <DescriptionCard />
+            <SocialCard />
+          </MDBCol>
+          <MDBCol lg="8">
+            <DescriptionCard />
 
             <MDBRow>
               <MDBCol md="6">
@@ -41,7 +40,7 @@ export default function ProfilePage() {
                         Progresso Diário
                       </span>
                     </MDBCardText>
-                    
+
 
                     <MDBCardText
                       className="mb-1"
@@ -82,8 +81,8 @@ export default function ProfilePage() {
                       Sono
                     </MDBCardText>
                     <ProgressBar un={'h'} atingido={7} total={8} />
-                    
-                 
+
+
                   </MDBCardBody>
                 </MDBCard>
               </MDBCol>
@@ -128,7 +127,7 @@ export default function ProfilePage() {
                       Luta
                     </MDBCardText>
                     <ProgressBar un={'h'} atingido={2} total={2} />
-                  
+
                   </MDBCardBody>
                 </MDBCard>
               </MDBCol>

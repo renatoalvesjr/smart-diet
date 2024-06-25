@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-
 import {
   MDBCard,
   MDBIcon,
@@ -14,7 +13,7 @@ import "./index.css";
 import GoalCard from "../../Components/GoalCard";
 import { Button } from "react-bootstrap";
 
-export default function GoalsCard({titulo}) {
+export default function GoalsCard({ titulo }) {
   const [cards, setCards] = useState([
     [
       {
