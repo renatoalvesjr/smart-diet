@@ -25,7 +25,7 @@ export default function FirstPage() {
             <Container fluid id="second-page-container">
                 <Row className="justify-content-center">
                     <Col md={6} className="d-flex">
-                        <Card className="main-card shadow-0 bg-transparent">
+                        <Card className="main-card shadow-none  bg-transparent">
                                 <Card.Body className="d-flex flex-column justify-content-center align-items-center">
                                     <Card.Title style={{ color: 'red', fontFamily: 'Pacifico', fontSize: '90px', marginBottom:'40px'}}>SmartDiet</Card.Title>
                                     <Card.Text style={{color: 'white', fontFamily: 'Arial', fontSize: '20px' }} className="text-center">
