@@ -7,19 +7,6 @@ import PlayStore from "../../Components/ButtonComponents/PlayStoreButton";
 import Apple from "../../Components/ButtonComponents/AppStoreButton";
 
 export default function FirstPage() {
-    const [email, setEmail] = useState('');
-
-    const handleEmailChange = (e) => {
-        setEmail(e.target.value);
-    };
-
-    const handleSubmit = () => {
-        // Aqui você pode implementar a lógica para lidar com o envio do e-mail
-        console.log('Email submetido:', email);
-        // Exemplo simples: limpar o campo após o envio
-        setEmail('');
-    };
-
     return (
         <>
             <Header />
@@ -42,7 +29,7 @@ export default function FirstPage() {
                                 <Card.Body className="d-flex flex-column justify-content-center align-items-center">
                                     <Card.Title>Comece Agora!</Card.Title>
                                     <Card.Text className="text-center">
-                                        <Button variant=""  onClick={handleSubmit} className="mt-3 register">Registrar-se</Button>
+                                        <Button variant="" className="mt-3 register">Registrar-se</Button>
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
