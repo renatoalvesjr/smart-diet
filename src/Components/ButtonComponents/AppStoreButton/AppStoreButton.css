@@ -1,11 +1,8 @@
-.AppStoreButton {
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(193,188,170,1) 0%);
-    color: #333;
+  .AppStoreButton {
+    border-width: 0px;
   }
   
   .AppStoreButton:hover {
-    background: #0056b3;
-    border-color: #0056b3;
-    color: white;
+    background: rgba(0, 0, 0, 0.233);
+    transition: 0.3s;
   }

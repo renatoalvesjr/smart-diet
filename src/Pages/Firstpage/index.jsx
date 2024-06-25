@@ -25,32 +25,24 @@ export default function FirstPage() {
             <Header />
             <div className="img-second"></div>
             <Container fluid id="second-page-container">
-                <Row className="justify-content-end">
+                <Row className="justify-content-center">
+                    <Col md={6} className="">
+                        <Card className="main-card shadow mb-4 bg-transparent">
+                                <Card.Body className="d-flex flex-column justify-content-center align-items-center">
+                                    <Card.Title style={{ color: 'red', fontFamily: 'Pacifico', fontSize: '90px', marginBottom:'40px'}}>SmartDiet</Card.Title>
+                                    <Card.Text style={{color: 'white', fontFamily: 'Arial', fontSize: '20px' }} className="text-center">
+                                        Entre para a familia SmartDiet, e venha conosco fazer a escolha certa. Uma dieta saudável e inteligente.
+                                    </Card.Text>
+                                </Card.Body>
+                        </Card>
+                    </Col>
                     <Col md={6} className="d-flex align-items-start justify-content-end">
                         <div className="stacked-cards">
                             <Card className="main-card shadow mb-4 gradient-bg">
                                 <Card.Body className="d-flex flex-column justify-content-center align-items-center">
-                                    <Card.Title>Apresentação do Site</Card.Title>
+                                    <Card.Title>Comece Agora!</Card.Title>
                                     <Card.Text className="text-center">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida, ipsum id fringilla commodo, sapien lorem hendrerit mi, et volutpat justo ipsum non purus.
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
-
-                            <Card className="main-card shadow mb-4 gradient-bg">
-                                <Card.Body className="d-flex flex-column justify-content-center align-items-center">
-                                    <Card.Title>Registrar</Card.Title>
-                                    <Card.Text className="text-center">
-                                        <Form.Group controlId="formEmail" className="w-100"> {/* Alterado de w-75 para w-100 */}
-                                            <Form.Control
-                                                type="email"
-                                                placeholder="Digite seu email"
-                                                value={email}
-                                                onChange={handleEmailChange}
-                                                className="gradient-bg"
-                                            />
-                                        </Form.Group>
-                                        <Button variant="dark" onClick={handleSubmit} className="mt-3 register">Registrar</Button>
+                                        <Button variant=""  onClick={handleSubmit} className="mt-3 register">Registrar-se</Button>
                                     </Card.Text>
                                 </Card.Body>
                             </Card>

@@ -61,18 +61,21 @@
 .gradient-bg {
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(236,234,226,1) 0%, rgba(255,255,255,1) 100%, rgba(0,212,255,1) 100%);
-  color: #333; /* Cor de texto adequada para contraste */
+  color: #333; 
+  filter: opacity(80%);
 }
 
 .register {
-  background: rgb(255,255,255);
-  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(193,188,170,1) 0%);
-  color: #333;
+  background-color: #2B3035;
+  color: white;
 }
 
-.register:hover {
-    background: #0056b3;
-    border-color: #0056b3;
-    color: white;
+.register:hover{
+  background-color: #23272b;
+  color: white;
+  transition: 0.3s;
 }
 
+.introducing {
+  filter: opacity(80%);
+}
