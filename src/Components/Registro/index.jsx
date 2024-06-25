@@ -21,7 +21,7 @@ function Registro({ onClose }) {
         setTimeout(() => {
           navigate('/profile')
         }, 0);
-      };
+    };
 
   return (
     <MDBContainer fluid>
@@ -51,7 +51,7 @@ function Registro({ onClose }) {
                 </MDBBtn>
               </div>
               <div>
-                <p className="mb-0">Já possui uma conta? <a href="#!" className="text-white-50 fw-bold">Login</a></p>
+                <p className="mb-0">Já possui uma conta? <a onClick={onClose} href="#!" className="text-white-50 fw-bold">Login</a></p>
               </div>
               <Button variant="danger" className='mt-3 px-5 button-color' size='lg' onClick={onClose}>
                 Fechar
