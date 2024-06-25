@@ -1,12 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.scss";
+import "./index.scss";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Profile from "./Pages/Profile";
 import Progresso from "./Pages/Progresso";
-import MainPage from "./Pages/Mainpage"
-import Feed from "./Pages/Feed";
+import Ranking from './Pages/Ranking';
+import Feed from './Pages/Feed';
+import MainPage from "./Pages/Mainpage";
 
 const router = createBrowserRouter([
   {
@@ -22,9 +24,14 @@ const router = createBrowserRouter([
     element: <Progresso />,
   },
   {
+    path: "/ranking",
+    element: <Ranking />,
+  },
+  {
     path: "/feed",
     element: <Feed />,
-  },
+  }
+  
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
