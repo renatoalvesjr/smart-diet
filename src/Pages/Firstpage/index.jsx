@@ -5,16 +5,19 @@ import { Container, Card, Button, Form, Row, Col } from 'react-bootstrap';
 import './FirstPage.css';
 import PlayStore from "../../Components/ButtonComponents/PlayStoreButton";
 import Apple from "../../Components/ButtonComponents/AppStoreButton";
-import { useNavigate } from "react-router-dom";
+import Registro from '../Registro';
 
 export default function FirstPage() {
-    const navigate = useNavigate();
+    const [showModal, setShowModal] = useState(false);
 
-    const handleGetStartedClick = () => {
-        setTimeout(() => {
-          navigate('/registro')
-        }, 500);
-      };
+    const openModal = () => {
+        setShowModal(true);
+    };
+
+    const closeModal = () => {
+        setShowModal(false);
+    };
+
     return (
         <>
             <Header />
@@ -22,11 +25,11 @@ export default function FirstPage() {
             <Container fluid id="second-page-container">
                 <Row className="justify-content-center">
                     <Col md={6} className="d-flex">
-                        <Card className="shadow mb-4 bg-transparent">
+                        <Card className="main-card shadow-0 bg-transparent">
                                 <Card.Body className="d-flex flex-column justify-content-center align-items-center">
                                     <Card.Title style={{ color: 'red', fontFamily: 'Pacifico', fontSize: '90px', marginBottom:'40px'}}>SmartDiet</Card.Title>
                                     <Card.Text style={{color: 'white', fontFamily: 'Arial', fontSize: '20px' }} className="text-center">
-                                        Entre para a familia SmartDiet, e venha conosco fazer a escolha certa. Uma dieta saudável e inteligente.
+                                        Entre para a família SmartDiet, e venha conosco fazer a escolha certa. Uma dieta saudável e inteligente.
                                     </Card.Text>
                                 </Card.Body>
                         </Card>
@@ -37,11 +40,10 @@ export default function FirstPage() {
                                 <Card.Body className="d-flex flex-column justify-content-center align-items-center">
                                     <Card.Title>Comece Agora!</Card.Title>
                                     <Card.Text className="text-center">
-                                        <Button onClick={handleGetStartedClick} variant="" className="mt-3 register">Registrar-se</Button>
+                                        <Button onClick={openModal} variant="" className="mt-3 register">Registrar-se</Button>
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
-
                             <Card className="main-card shadow gradient-bg">
                                 <Card.Body className="d-flex flex-column justify-content-center align-items-center">
                                     <Card.Title>Baixar o Aplicativo</Card.Title>
@@ -63,6 +65,11 @@ export default function FirstPage() {
                 </Row>
             </Container>
             <Footer />
+            {showModal &&
+                <div className="modal-backdrop" >
+                    <Registro onClose={closeModal}/>
+                </div>
+            }
         </>
     );
 }
