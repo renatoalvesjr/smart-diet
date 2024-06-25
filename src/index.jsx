@@ -9,7 +9,6 @@ import Progresso from "./Pages/Progresso";
 import Ranking from './Pages/Ranking';
 import Feed from './Pages/Feed';
 import MainPage from "./Pages/Mainpage";
-import MainPage from "./Pages/Mainpage"
 import FirstPage from "./Pages/Firstpage";
 
 const router = createBrowserRouter([
