@@ -1,5 +1,6 @@
 import React from "react";
 import { GooglePlayButton } from "react-mobile-app-button";
+import './PlayStoreButton.css'
   
 
 export default function PlayStore() {
@@ -10,7 +11,7 @@ export default function PlayStore() {
         <GooglePlayButton
             url={APKUrl}
             theme={"light"}
-            className={"custom-style"}
+            className={"PlayStoreButton"}
         />
         </div>
   );

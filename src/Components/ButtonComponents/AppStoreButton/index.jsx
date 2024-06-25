@@ -1,5 +1,6 @@
 import React from "react";
 import { AppStoreButton } from "react-mobile-app-button";
+import './AppStoreButton.css'
   
 
 export default function Apple() {
@@ -10,7 +11,7 @@ export default function Apple() {
         <AppStoreButton
             url={APKUrl}
             theme={"light"}
-            className={"custom-style"}
+            className={"AppStoreButton"}
         />
         </div>
   );
