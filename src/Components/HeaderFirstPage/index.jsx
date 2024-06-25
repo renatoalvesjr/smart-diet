@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './HeaderFirstPage.css';
-import Login from '../../Pages/Login'
+import Login from '../Login'
 
 export default function Header() {
     const [showModalLogin, setShowModalLogin] = useState(false);

@@ -7,7 +7,6 @@ import Profile from "./Pages/Profile";
 import Progresso from "./Pages/Progresso";
 import MainPage from "./Pages/Mainpage"
 import FirstPage from "./Pages/Firstpage";
-import Registro from "./Pages/Registro"
 
 const router = createBrowserRouter([
   {

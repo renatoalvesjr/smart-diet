@@ -5,7 +5,7 @@ import { Container, Card, Button, Form, Row, Col } from 'react-bootstrap';
 import './FirstPage.css';
 import PlayStore from "../../Components/ButtonComponents/PlayStoreButton";
 import Apple from "../../Components/ButtonComponents/AppStoreButton";
-import Registro from '../Registro';
+import Registro from '../../Components/Registro';
 
 export default function FirstPage() {
     const [showModal, setShowModal] = useState(false);
