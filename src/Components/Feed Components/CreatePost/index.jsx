@@ -1,14 +1,22 @@
-import { MDBCard, MDBContainer, MDBCardHeader, MDBCardText, MDBCardBody, MDBDropdown, MDBIcon } from "mdb-react-ui-kit";
+import { MDBCard, MDBContainer, MDBCardHeader, MDBCardText, MDBCardBody, MDBIcon } from "mdb-react-ui-kit";
 import React, { useState } from "react";
 import { Button, Dropdown } from "react-bootstrap";
 
-export default function CreatePost() {
-    const [privacy, setPrivacy] = React.useState("Público");
-    const [post, setPost] = React.useState("");
+export default function CreatePost(props) {
+    const [privacy, setPrivacy] = useState("Público");
+    const [post, setPost] = useState("");
 
     const createPost = () => {
-        console.log(post);
-    };
+        const newPost = {
+            name: "Renato Alves",
+            avatar: "./avatarRenato.jpg",
+            text: post,
+            date: "agora",
+            likes: "0",
+            comments: "0",
+        };
+        props.createPost([newPost, ...props.posts]);
+    }
 
     return (
         <>
