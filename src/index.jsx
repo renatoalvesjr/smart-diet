@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.scss";
+import "./index.scss";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Profile from "./Pages/Profile";
@@ -11,7 +12,7 @@ import Feed from './Pages/Feed';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Profile />,
+    element: <MainPage />,
   },
   {
     path: "/profile",
