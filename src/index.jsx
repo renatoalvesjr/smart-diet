@@ -24,7 +24,7 @@ const router = createBrowserRouter([
   {
     path: "/progresso",
     element: <Progresso />,
-  }
+  },
   {
     path: "/registro",
     element: <Registro/>
