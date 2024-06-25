@@ -13,8 +13,8 @@ export default function FirstPage() {
             <div className="img-second"></div>
             <Container fluid id="second-page-container">
                 <Row className="justify-content-center">
-                    <Col md={6} className="">
-                        <Card className="main-card shadow mb-4 bg-transparent">
+                    <Col md={6} className="d-flex">
+                        <Card className="shadow mb-4 bg-transparent">
                                 <Card.Body className="d-flex flex-column justify-content-center align-items-center">
                                     <Card.Title style={{ color: 'red', fontFamily: 'Pacifico', fontSize: '90px', marginBottom:'40px'}}>SmartDiet</Card.Title>
                                     <Card.Text style={{color: 'white', fontFamily: 'Arial', fontSize: '20px' }} className="text-center">
