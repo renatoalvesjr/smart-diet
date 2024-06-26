@@ -18,7 +18,7 @@ import Header from "../../Components/Header";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
-export default function Feed() {
+export default function SmartChoices() {
   return (
     <section style={{ backgroundColor: "#eee" }}>
       <Header />
@@ -26,7 +26,7 @@ export default function Feed() {
         <MDBRow className="justify-content-center">
             
           <MDBCol lg="4">
-          <span>FEED</span>
+          <span>SmartChoices</span>
           </MDBCol>
         </MDBRow>
       </MDBContainer>
