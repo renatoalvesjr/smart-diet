@@ -1,9 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.scss";
+import ReactDOM from "react-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.scss";
 import reportWebVitals from "./reportWebVitals";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Profile from "./Pages/Profile";
 import Progresso from "./Pages/Progresso";
 import Ranking from './Pages/Ranking';
@@ -12,46 +11,29 @@ import MainPage from "./Pages/Mainpage";
 import FirstPage from "./Pages/Firstpage";
 import SmartChoices from "./Pages/SmartChoices";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <MainPage />,
-  },
-  {
-    path: "/home",
-    element: <FirstPage />,
-  },
-  {
-    path: "/profile",
-    element: <Profile />,
-  },
-  {
-    path: "/progresso",
-    element: <Progresso />,
-  },
-  {
-    path: "/ranking",
-    element: <Ranking />,
-  },
-  {
-    path: "/feed",
-    element: <Feed />,
-  },
-  {
-    path: "/smartchoices",
-    element: <SmartChoices />
-  },
-
-]);
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>
+const App = () => (
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<MainPage />} />
+      <Route path="/home" element={<FirstPage />} />
+      <Route path="/profile" element={<Profile />} />
+      <Route path="/progresso" element={<Progresso />} />
+      <Route path="/ranking" element={<Ranking />} />
+      <Route path="/feed" element={<Feed />} />
+      <Route path="/smartchoices" element={<SmartChoices />} />
+    </Routes>
+  </BrowserRouter>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById("root")
+);
+
+// Se você quiser começar a medir o desempenho do seu aplicativo,
+// passe uma função para registrar os resultados (por exemplo: reportWebVitals(console.log))
+// ou envie para um ponto de extremidade de análise.
+// Saiba mais: https://bit.ly/CRA-vitals
 reportWebVitals();
