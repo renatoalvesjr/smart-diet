@@ -12,7 +12,7 @@ import FirstPage from "./Pages/Firstpage";
 import SmartChoices from "./Pages/SmartChoices";
 
 const App = () => (
-  <BrowserRouter basename="/smart-diet">
+  <BrowserRouter>
     <Routes>
       <Route path="/smart-diet" element={<MainPage />} />
       <Route path="/home" element={<FirstPage />} />
