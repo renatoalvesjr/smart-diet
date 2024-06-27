@@ -12,9 +12,9 @@ import FirstPage from "./Pages/Firstpage";
 import SmartChoices from "./Pages/SmartChoices";
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/smart-diet">
     <Routes>
-      <Route path="/smart-diet" element={<MainPage />} />
+      <Route path="/" element={<MainPage />} />
       <Route path="/home" element={<FirstPage />} />
       <Route path="/profile" element={<Profile />} />
       <Route path="/progresso" element={<Progresso />} />
@@ -32,8 +32,4 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
-// Se você quiser começar a medir o desempenho do seu aplicativo,
-// passe uma função para registrar os resultados (por exemplo: reportWebVitals(console.log))
-// ou envie para um ponto de extremidade de análise.
-// Saiba mais: https://bit.ly/CRA-vitals
 reportWebVitals();
