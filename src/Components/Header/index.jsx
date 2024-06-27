@@ -11,7 +11,7 @@ export default function Header() {
     return (
         <Navbar collapseOnSelect expand="md" className="bg-body-tertiary" data-bs-theme="dark">
             <Container>
-                <Navbar.Brand href="/" style={{ color: 'red', fontFamily: 'Pacifico' }}>SmartDiet</Navbar.Brand>
+                <Navbar.Brand href="/smart-diet" style={{ color: 'red', fontFamily: 'Pacifico' }}>SmartDiet</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
