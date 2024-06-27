@@ -10,6 +10,7 @@ import Ranking from './Pages/Ranking';
 import Feed from './Pages/Feed';
 import MainPage from "./Pages/Mainpage";
 import FirstPage from "./Pages/Firstpage";
+import SmartChoices from "./Pages/SmartChoices";
 
 const router = createBrowserRouter([
   {
@@ -35,8 +36,12 @@ const router = createBrowserRouter([
   {
     path: "/feed",
     element: <Feed />,
-  }
-  
+  },
+  {
+    path: "/smartchoices",
+    element: <SmartChoices />
+  },
+
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

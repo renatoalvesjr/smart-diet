@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Header from "../../Components/Header";
 import Footer from "../../Components/Footer";
 import Alimentos from "../../Components/Alimentos";
 import {
   MDBCard,
-  MDBIcon,
   MDBCardTitle,
   MDBRow,
   MDBContainer,
@@ -14,7 +13,6 @@ import {
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 import GoalsCard from "../../Components/GoalsCard";
-import { Button } from "react-bootstrap";
 
 export default function Progresso() {
 
