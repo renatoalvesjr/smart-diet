@@ -2,7 +2,6 @@ import React from "react";
 import { MDBCard, MDBCardBody, MDBCardHeader, MDBCardText, MDBCardFooter, MDBIcon } from "mdb-react-ui-kit";
 
 export default function Post(props) {
-    console.log(props.avatar);
     return (
         <>
             <MDBCard className="mb-4">

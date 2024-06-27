@@ -20,7 +20,7 @@ export default function CreatePost(props) {
 
     return (
         <>
-            <MDBContainer className="py-5">
+            <MDBContainer fluid className="py-4 shadow-0 justify-content-start">
                 <MDBCard className="mb-4">
                     <MDBCardHeader className="d-flex align-items-center">
                         <img

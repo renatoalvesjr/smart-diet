@@ -32,7 +32,7 @@ export default function Feed() {
   return (
     <>
       <Header />
-      <MDBContainer className="py-2">
+      <MDBContainer className="">
         <CreatePost createPost={setPost} posts={post} />
         {post.map((post) => (
           <Post
