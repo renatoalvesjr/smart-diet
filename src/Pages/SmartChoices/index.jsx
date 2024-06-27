@@ -61,7 +61,7 @@ export default function SmartChoices() {
 
         <MDBRow className="justify-content-center">
           <MDBCol lg="6" className="">
-            <MDBCard className="my-5 p-2 card">
+            <MDBCard className="my-5 p-2 smart-card">
               <MDBCardBody className="card-body">
                 <MDBCardText className="fonte">Escolha a comida</MDBCardText>
                 <DropdownButton
@@ -89,7 +89,7 @@ export default function SmartChoices() {
             </MDBCard>
           </MDBCol>
           <MDBCol lg="6" className="">
-            <MDBCard className="my-5 p-2 card">
+            <MDBCard className="my-5 p-2 smart-card">
               <MDBCardBody className="card-body">
                 <MDBCardText className="fonte">
                   {
