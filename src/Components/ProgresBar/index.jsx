@@ -34,7 +34,7 @@ export default function ProgressBar({ total, atingido, un }) {
   // useEffect para executar definirCor uma vez no carregamento inicial
   useEffect(() => {
     definirCor();
-  }, [atingido, total]); // O array vazio [] como segundo argumento faz com que useEffect seja executado apenas uma vez
+  }); // O array vazio [] como segundo argumento faz com que useEffect seja executado apenas uma vez
 
   return (
     <MDBProgress className="m-2" >

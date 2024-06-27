@@ -42,7 +42,7 @@ export default function Ranking() {
   };
   useEffect(() => {
     ordenar();
-  }, [listaUsers]);
+  });
 
   return (
     <section style={{ backgroundColor: "#eee" }}>

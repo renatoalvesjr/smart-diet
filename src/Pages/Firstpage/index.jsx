@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Header from "../../Components/HeaderFirstPage";
 import Footer from "../../Components/Footer";
-import { Container, Card, Button, Form, Row, Col } from 'react-bootstrap';
+import { Container, Card, Button, Row, Col } from 'react-bootstrap';
 import './FirstPage.css';
 import PlayStore from "../../Components/ButtonComponents/PlayStoreButton";
 import Apple from "../../Components/ButtonComponents/AppStoreButton";

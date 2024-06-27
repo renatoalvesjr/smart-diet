@@ -14,11 +14,11 @@ export default function RankingCard({ nome, xp, data, img, rank }) {
   const [classe, setClass] = useState('')
 
   useEffect(() => {
-    if (rank == 1) {
+    if (rank === 1) {
       setClass('cardOuro')
-    } else if (rank == 2) {
+    } else if (rank === 2) {
       setClass('cardPrata')
-    } else if (rank == 3) {
+    } else if (rank === 3) {
       setClass('cardBronze')
     }
   }, [rank]);

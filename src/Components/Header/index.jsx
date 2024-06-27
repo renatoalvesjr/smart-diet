@@ -18,6 +18,7 @@ export default function Header() {
                         <Nav.Link href="/feed">Feed</Nav.Link>
                         <Nav.Link href="/progresso">Progresso</Nav.Link>
                         <Nav.Link href="/ranking">Ranking</Nav.Link>
+                        <Nav.Link href="/smartchoices">SmartChoices</Nav.Link>
                     </Nav>
                     <Nav>
                         <Nav.Link href="/profile">Meu Perfil</Nav.Link>
