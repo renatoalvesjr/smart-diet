@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/smart-diet/static/css/main.3d86ad02.css",
-    "main.js": "/smart-diet/static/js/main.abf99694.js",
+    "main.js": "/smart-diet/static/js/main.eea30d41.js",
     "static/js/453.11e0fcff.chunk.js": "/smart-diet/static/js/453.11e0fcff.chunk.js",
     "static/media/ImgSecond.jpg": "/smart-diet/static/media/ImgSecond.bc36f18a67137f2483d7.jpg",
     "static/media/ImgMain.jpg": "/smart-diet/static/media/ImgMain.a99467f36b64bcc67228.jpg",
@@ -22,11 +22,11 @@
     "static/media/Apple-light.svg": "/smart-diet/static/media/Apple-light.cdd7304efd805f2053de1036bf9b5ed4.svg",
     "static/media/Apple.svg": "/smart-diet/static/media/Apple.71320a89dc7cdb815431216cf0bc1dd2.svg",
     "main.3d86ad02.css.map": "/smart-diet/static/css/main.3d86ad02.css.map",
-    "main.abf99694.js.map": "/smart-diet/static/js/main.abf99694.js.map",
+    "main.eea30d41.js.map": "/smart-diet/static/js/main.eea30d41.js.map",
     "453.11e0fcff.chunk.js.map": "/smart-diet/static/js/453.11e0fcff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d86ad02.css",
-    "static/js/main.abf99694.js"
+    "static/js/main.eea30d41.js"
   ]
 }
