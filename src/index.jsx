@@ -14,7 +14,7 @@ import SmartChoices from "./Pages/SmartChoices";
 const App = () => (
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<MainPage />} />
+      <Route path="/smart-diet" element={<MainPage />} />
       <Route path="/home" element={<FirstPage />} />
       <Route path="/profile" element={<Profile />} />
       <Route path="/progresso" element={<Progresso />} />
