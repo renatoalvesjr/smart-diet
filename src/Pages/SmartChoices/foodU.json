@@ -1,0 +1,39 @@
+[
+
+    {
+        "nome": "Sorvete",
+        "kcal": 216,
+        "peso_gramas": 100,
+        "img": "https://i.postimg.cc/PJ11670C/sorvete.png"
+    },
+    {
+        "nome": "Pizza",
+        "kcal": 266,
+        "peso_gramas": 100,
+        "img": "https://i.postimg.cc/05htVRKy/image.png"
+    },
+    {
+        "nome": "Mortadela",
+        "kcal": 311,
+        "peso_gramas": 100,
+        "img": "https://i.postimg.cc/W3bm1SDK/image.png"
+    },
+    {
+        "nome": "Bolacha Recheada",
+        "kcal": 469,
+        "peso_gramas": 100,
+        "img": "https://i.postimg.cc/C1Q8L0pB/image.png"
+    },
+    {
+        "nome": "Bacon",
+        "kcal": 541,
+        "peso_gramas": 100,
+        "img": "https://i.postimg.cc/pdkjfBfH/image.png"
+    },
+    {
+        "nome": "Barra de Chocolate",
+        "kcal": 556,
+        "peso_gramas": 100,
+        "img": "https://i.postimg.cc/7hjSXkB8/image.png"
+    }
+]
