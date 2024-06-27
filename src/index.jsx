@@ -1,19 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.scss";
-import "./index.scss";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Profile from "./Pages/Profile";
 import Progresso from "./Pages/Progresso";
 import Ranking from './Pages/Ranking';
+
+import SmartChoices from './Pages/SmartChoices';
 import Feed from './Pages/Feed';
-import MainPage from "./Pages/Mainpage";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <MainPage />,
+    element: <Profile />,
   },
   {
     path: "/profile",
@@ -30,6 +30,11 @@ const router = createBrowserRouter([
   {
     path: "/feed",
     element: <Feed />,
+  }
+  ,
+  {
+    path: "/smart-choices",
+    element: <SmartChoices />,
   }
   
 ]);
